@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #337ab7;
+  }
+  
+  /* Box List Styles */
+  
+  .app-box-list {
+    display: block;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-info p {
+    margin: 0;
+  }
+  
+  .box-info strong {
+    font-weight: bold;
+  }
+  
+  .box-info p:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  /* Form Styles */
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="number"],
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
